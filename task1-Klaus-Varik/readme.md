@@ -5,7 +5,15 @@ Author: Klaus Varik
 
 Created: 08.09.2021
 
-Files included: *** task1.js, task2.js, task3.js, task4.js, task5.js, task6.js, task7.js ***
+Files included:
+- [x] task1.js
+- [x] task2.js
+- [x] task3.js 
+- [x] task4.js
+- [x] task5.js
+- [x] task6.js
+- [x] task7.js
+- [x] readme.md
 
 Requirements: Node.js
 
