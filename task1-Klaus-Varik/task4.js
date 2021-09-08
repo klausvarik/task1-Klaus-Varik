@@ -1,6 +1,11 @@
 //Array
 const colors = ['Red','Green','White','Black'];
 
-console.log('"' + colors[0] + ',' + colors[1] + ',' + colors[2] + ',' + colors[3] + '."');
-console.log('"' + colors[0] + ',' + colors[1] + ',' + colors[2] + ',' + colors[3] + ',"');
-console.log('"' + colors[0] + '+' + colors[1] + '+' + colors[2] + '+' + colors[3] + '+"');
+const s1 = colors.toString();
+console.log('"' + s1 + '"');
+
+const s2 = colors.join(", ");
+console.log('"' + s2 + '"');
+
+const s3 = colors.join(" + ");
+console.log('"' + s3 + '"');
