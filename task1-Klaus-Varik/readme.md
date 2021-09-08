@@ -1,5 +1,5 @@
 
-##### File Creator 
+#### File Creator 
 
 Author: Klaus Varik
 
@@ -17,7 +17,7 @@ Files included:
 
 Requirements: Node.js
 
-##### How to run: 
+#### How to run: 
 ```
 node task1.js
 ```
