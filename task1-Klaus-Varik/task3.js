@@ -13,4 +13,3 @@ function greet(name, name2){
 }
 // Logi välja
 console.log(greet('Bob', 'Greete'));
-
