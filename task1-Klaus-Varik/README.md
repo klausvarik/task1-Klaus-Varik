@@ -13,7 +13,7 @@ Files included:
 - [x] task5.js
 - [x] task6.js
 - [x] task7.js
-- [x] readme.md
+- [x] README.md
 
 Requirements: Node.js
 
