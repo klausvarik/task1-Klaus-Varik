@@ -13,6 +13,7 @@ Files included:
 - [x] task5.js
 - [x] task6.js
 - [x] task7.js
+- []  task8.js
 - [x] README.md
 
 Requirements: Node.js
@@ -38,4 +39,7 @@ node task6.js
 ```
 ```
 node task7.js
+```
+```
+node task8.js
 ```
