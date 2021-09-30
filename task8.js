@@ -4,6 +4,7 @@ movieData.map(movie => {
     movie.Year = +movie.Year
     movie.imdbRating = +movie.imdbRating
     movie.imdbVotes = +(movie.imdbVotes.replace(/,/g, ''))
+    movie.Actors = movie.Actors.split(', ')
 })
 
 
@@ -101,3 +102,40 @@ console.log(bestRatingDramaString)
 console.log(mostRatedDramaString)
 
 console.log('Ex 3')
+
+const ratedR = movieData.filter(movie => {
+    if(movie.Rated === 'R'){
+        return movie
+    }
+})
+
+//console.log('ratedR', ratedR)
+
+const ratedRTitles = ratedR.map(movie => {
+    return movie.Title
+})
+
+//console.log('ratedRTitles', ratedRTitles)
+
+let ratedRString = 'Movies that are rated R are: '
+ratedRString += ratedRTitles.join(', ') + '.'
+
+//console.log(ratedRString)
+
+let actors = []
+ratedR.map(movie => {
+    movie.Actors.map(actor => {
+        actors.push(actor)
+    })
+})
+
+//console.log('actors', actors)
+
+let uniqueActors = [...new Set(actors)];
+
+//console.log('uniqueActors', uniqueActors)
+
+let actorString = 'Actors that played in those movies: '
+actorString += uniqueActors.join(', ') +'.'
+
+console.log(actorString)
