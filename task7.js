@@ -1,10 +1,10 @@
 function getRandom(min, max){
     return Math.random(0) * (max - min) + min;
 }
-function suvaline(){
+function randomNum(){
     return Math.round(getRandom(1, 100))
 }
-function suurim(n){
+function maximum(n){
     return Math.max.apply(null, n)
 }
 function lower(n){
@@ -31,10 +31,10 @@ function even(n1){
 
 const j = []
 for(let i = 0; i < 5; i++){
-    j.push(suvaline())
+    j.push(randomNum())
 }
 console.log(j)
-console.log(suurim(j))
+console.log(maximum(j))
 console.log(lower(j))
 console.log(even(j))
 
