@@ -1,10 +1,10 @@
 //Hello! kordaja
-function korda(n){
-    if(n === undefined || n >= 10){
+function multiplier(n){
+    if(!n || n >= 10){
         console.log( 'Hi!');
         
     } 
-    else if (n != undefined){
+    else if (n){
         for(let i = 0; i < n; i++){
             console.log( 'Hello!');
         } 
@@ -13,4 +13,4 @@ function korda(n){
 
 }
 
-console.log(korda(5));
+console.log(multiplier(5));
